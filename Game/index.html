@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ферма GameFi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+
+  <div id="ui">
+    <h1>Моя Ферма (GameFi Demo)</h1>
+    <button onclick="plantCrop()">Посадить грядку</button>
+    <button onclick="harvestCrop()">Собрать урожай</button>
+    <button onclick="buyChicken()">Купить курицу</button>
+    <button onclick="buildBarn()">Построить амбар</button>
+
+    <div class="info">
+      <p>Баланс: <span id="balance">100</span> монет</p>
+      <p>Время: <span id="gameTime">День 0</span></p>
+    </div>
+  </div>
+
+  <!-- Подключаем главный скрипт со всеми импортами -->
+  <script type="module" src="game.js"></script>
+</body>
+</html>

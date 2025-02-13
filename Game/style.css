@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+#gameCanvas {
+  background-color: #77c14d;
+  border: 2px solid #4d8b3d;
+  display: block;
+}
+
+#ui {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#ui h1 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+#ui button {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.info {
+  margin-top: 10px;
+}
